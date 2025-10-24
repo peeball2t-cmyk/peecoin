@@ -1,0 +1,10 @@
+[project]
+name = "peecoin"
+description = "PeeCoin fungible token on Stacks"
+authors = ["NKECHI OKOYE"]
+telemetry = false
+
+[contracts.peecoin]
+path = "contracts/peecoin.clar"
+clarity_version = 2
+epoch = 2.4
