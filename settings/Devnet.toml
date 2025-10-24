@@ -1,0 +1,14 @@
+# Clarinet Devnet settings for PeeCoin
+# Customize accounts and network parameters as needed.
+
+[network]
+name = "devnet"
+
+[accounts.deployer]
+mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about"
+balance = "1000000000000000"
+
+[accounts.wallet_1]
+mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about"
+path = "m/44'/5757'/0'/0/1"
+balance = "1000000000000000"
