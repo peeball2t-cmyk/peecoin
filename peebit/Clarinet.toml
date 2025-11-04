@@ -1,0 +1,15 @@
+[project]
+name = "peebit"
+description = "SIP-010 fungible token: Peebit (PEEBIT)"
+authors = ["anthony"]
+telemetry = false
+
+[contracts.peebit]
+path = "contracts/peebit.clar"
+clarity_version = 2
+epoch = "2.1"
+
+[contracts.sip010-ft-trait]
+path = "contracts/sip010-ft-trait.clar"
+clarity_version = 2
+epoch = "2.1"
